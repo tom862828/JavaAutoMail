@@ -1,0 +1,2 @@
+# JavaAutoMail
+Use Google SMTP
