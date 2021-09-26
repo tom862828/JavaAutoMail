@@ -25,7 +25,7 @@ public class JavaMail {
 	}
 	
 	@SuppressWarnings("static-access")
-	public void sendMail() {
+	protected void sendMail() {
 		Properties prop = new Properties();
 		prop.setProperty("mail.transport.protocol", "smtp");
 		prop.setProperty("mail.host", "smtp.gmail.com");
